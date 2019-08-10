@@ -1,0 +1,53 @@
+.idea-warp{
+	height: 100vh;
+	background: #f4f4f4;
+}
+.idea-warp .opinion-container{
+	background: #fff;
+	transform: translateY(3%);
+	padding-top: 30rpx;
+	
+	.opinion-title{
+		padding-left: 30rpx;
+		border-bottom: 1px solid #ebebeb;
+		.radio-type{
+			margin: 30rpx 40rpx;
+			.group{
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				.label{
+					display: flex;
+					flex-direction: row;
+					width: 33.333%;
+					margin: 10rpx 0;
+				}
+			}
+		}
+	}
+	.opinion-content{
+		padding:30rpx;
+		.title{
+			padding-top: 10rpx;
+		}
+		.opinion{
+			padding: 30rpx;
+			textarea{
+				font-size: 17px;
+			}
+		}
+	}	
+}
+.mobile-content{
+	margin: 65rpx 0;
+	padding: 25rpx 30rpx 0 30rpx;
+	background: #fff;
+	.mobile{
+		padding: 20rpx;
+	}
+}
+.btn-sub{
+	border: none;
+	background: #fff;
+}
+

@@ -1,0 +1,101 @@
+<template>
+	<view class="wallet-warp">
+		<view class="wallet-container">
+			
+			<view class="heading-content">
+				<text class="head-title">我的钱包</text>
+				<text class="detailed">明细</text>
+			</view>
+			
+			<view class="wallet-card">
+				<view class="wallet-title">
+					<text class="title">累计收入</text>
+				</view>
+				<view class="wallet-money">
+					<view class="money-content">
+						<text class="money">9999</text>
+						<text class="unit">环保金</text>
+					</view>
+					<view class="go-cash-out">
+						<text class="cash"></text>
+					</view>
+				</view>
+				<view class="wallet-info">
+					<view class="history-money">
+						<text class="history">历史提现</text>
+						<text class="money">8888<text class="unit">￥</text></text>
+					</view>
+					<view class="cash-out">
+						<text class="month">本月可提现</text>
+						<text class="money">7777<text class="unit">￥</text></text>
+					</view>
+				</view>
+				
+			</view>
+			
+			<view class="wallet-tips">
+				<text class="tip">用积分兑换环保金，提现到手软</text>
+			</view>
+			
+			
+			
+		</view>
+		
+		<view class="wallet-container">
+			
+			<view class="heading-content">
+				<text class="head-title">我的IC卡</text>
+				<text class="detailed"></text>
+			</view>
+			
+			<view class="wallet-card" style="background-image: url('../../static/images/iccard.png');">
+				<view class="wallet-title">
+					<text class="title"></text>
+				</view>
+				<view class="wallet-money">
+					<view class="money-content">
+						<text class="money">ic卡</text>
+						<text class="unit">环保金</text>
+					</view>
+					<view class="go-cash-out">
+						<text class="cash"></text>
+					</view>
+				</view>
+				<view class="wallet-info">
+					<view class="history-money">
+						
+						<text class="money">*************<text class="unit"></text></text>
+					</view>
+<!-- 					<view class="cash-out">
+						<text class="month">本月可提现</text>
+						<text class="money">7777<text class="unit">￥</text></text>
+					</view> -->
+				</view>
+				
+			</view>
+			
+			<view class="wallet-tips">
+				<text class="tip">用积分兑换环保金，提现到手软</text>
+			</view>
+			
+			
+			
+		</view>
+		
+		<view class="ic-warp">
+			<view class="add-ic">
+					<text class="add-text">添加</text>
+					<view class="cross">
+						<view class="transverse-line"></view>
+						<view class="vertical-line"></view>
+					</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+</script>
+
+<style>
+</style>

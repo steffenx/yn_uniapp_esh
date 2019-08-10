@@ -1,0 +1,69 @@
+.qrcode-warp{
+	background: #000;
+	height: 94vh;
+}
+.qrcode-warp .card-warp{
+	background: #fff;
+	width: 300px;
+	display: flex;
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 10px;
+	.top-userinfo{
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		justify-content: center;
+		padding: 0 10px;
+		border-bottom: 2px dashed #d9d9d9;
+		.head-pic{
+			display: flex;
+			text-align: center;
+			justify-content: center;
+			width: 45px;
+			height: 45px;
+			border-radius: 45px;
+			margin: 10px;
+			.head-icon{
+				width: 100%;
+				height: auto;
+				border-radius: 45px;
+			}
+		}
+		.info{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			justify-content: center;
+			margin: 0 15px;
+			.username,{
+				font-size: 15px;
+				
+			}
+			.integral{
+				font-size: 14px;
+				color: #757575;
+			}
+		}
+	}
+	
+	.qrcode-warp{
+		height: 200px;
+		width: 200px;
+		background: #fff;
+		margin: 25px auto;
+	}
+	.tips-warp{
+		margin: auto;
+		margin-bottom: 25px;
+		.tips{
+			font-size: 15px;
+			color: #757575;
+		}
+	}
+}

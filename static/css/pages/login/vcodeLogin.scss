@@ -1,0 +1,40 @@
+//引入图标库
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../static/font/iconfont.ttf') format('truetype');
+}
+.vcodelogin-from,
+.forgetpsd-from{
+	overflow-y: hidden;
+	margin: 40px 20px 10px 20px;
+	font-family: 'iconfont';
+	.from-title{
+		margin-bottom: 60px;
+		.title{
+			font-weight: 600;
+			font-size: 28px;
+		}
+	}
+	.from-input{
+		margin: 10px;
+		font-family: 'iconfont';
+	}
+	.mobile-input,
+	.code-input{
+		position: relative;
+		.post-code{
+			font-size:17px; 
+			position: absolute;
+			right: 30px;
+			top: 15px;
+			color: $uni-color-login-btn;
+			z-index: 9999;
+		}
+	}
+	input{
+		border-bottom: 1px solid $uni-color-login-input;
+		margin: 20px;
+		height: 50px;
+		font-size: 17px;
+	}
+}

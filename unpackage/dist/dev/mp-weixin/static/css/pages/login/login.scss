@@ -1,0 +1,90 @@
+//引入图标库
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../static/font/iconfont.ttf') format('truetype');
+}
+.header{
+	position: relative;
+	height: 50rpx;
+	margin-top: 10rpx;
+	.right-text{
+		position: absolute;
+		right: 15rpx;
+		font-size: 20px;
+	}
+}
+.login-from,
+.forgetpsd-from{
+	overflow-y: hidden;
+	margin: 40px 20px 10px 20px;
+	font-family: 'iconfont';
+	.from-title{
+		margin-bottom: 60px;
+		.title{
+			font-weight: 600;
+			font-size: 28px;
+		}
+	}
+	.from-input{
+		margin: 20px;
+		font-family: 'iconfont';
+	}
+	.account-input,
+	.psd-input{
+		position: relative;
+		.icon{
+			font-size:14px; 
+			position: absolute;
+			right: 30px;
+			top: 20px;
+			color: $uni-color-login-input;
+			z-index: 99;
+		}
+	}
+	input{
+		border-bottom: 1px solid $uni-color-login-input;
+		margin: 20px;
+		height: 50px;
+		font-size: 17px;
+		background-color: none;
+	}
+}
+.select-text{
+	display: flex;
+	flex-direction: row;
+	margin: 20px auto;
+	justify-content: center;
+	text-align: center;
+	.code ,
+	.forgect{
+		margin: auto;
+		color: $uni-color-login-text;
+		font-size: 17px;
+	}
+}
+.login-btn{
+	margin: 25px auto;
+	height: 50px;
+	width: 300rpx;
+	background: $uni-color-login-btn;
+	border-radius: 50px;
+	.btn{
+		text-align: center;
+		line-height: 50px;
+		color: #fff;
+		font-weight: 600;
+	}
+}
+.clause{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	.read{
+		font-size: 14px;
+	}
+	.agreement{
+		font-size: 14px;
+		color: $uni-color-login-btn;
+	}
+}

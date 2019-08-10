@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/registe",
+    "pages/login/login",
+    "pages/login/vcodeLogin",
+    "pages/login/forgetpsd",
+    "pages/index/sort",
+    "pages/index/map",
+    "pages/index/category",
+    "pages/about/aboutme",
+    "pages/qrcode/qrcode",
+    "pages/about/delivery",
+    "pages/distribute/distribute",
+    "pages/settlement/settlement",
+    "pages/about/updateme",
+    "pages/distribute/routeplanning",
+    "pages/distribute/routeplanning1",
+    "pages/about/idea",
+    "pages/about/about_us",
+    "pages/about/walletme",
+    "pages/about/certification",
+    "pages/about/binding_card"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#0faeff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/homeHL.png"
+      },
+      {
+        "pagePath": "pages/about/aboutme",
+        "text": "我的",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/userHL.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "生活，展示垃圾桶位置"
+    }
+  },
+  "usingComponents": {}
+}

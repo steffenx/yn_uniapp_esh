@@ -1,0 +1,117 @@
+
+.content {
+	background: #f6f6f6;
+	height: 100vh;
+	margin: 0;
+}
+.contact{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content : space-around;
+	    -ms-flex-pack : distribute;
+	        justify-content : space-around;
+	height: 420rpx ;
+	width: 96%;
+	margin: 0 auto;
+	margin-bottom: 30rpx;
+}
+.phone,.web{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 47%;
+	height: 95%;
+	margin: 10rpx 10rpx;
+	border: 2px solid #f1f1f1;
+}
+.contact_img{
+	width: 150rpx;
+    height: 150rpx;
+	margin: 30rpx 0;
+}
+.contact_1{
+	font-weight: 800;
+	margin-bottom: 20rpx;
+}
+.contact_2{
+	font-size: 30rpx;
+	margin-bottom: 20rpx;
+	text-decoration: underline;
+}
+.phone_3{
+	font-size: 20rpx;
+	margin-bottom: 20rpx;
+}
+.weixin,.address{
+	width: 96%;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+/* 	align-items: center; */
+	-webkit-box-pack : center;
+	-webkit-justify-content : center;
+	    -ms-flex-pack : center;
+	        justify-content : center;
+}
+.weixin{
+	height: 300rpx;
+}
+.address{
+	height: 200rpx;
+}
+.contact_left{
+	width: 23%;
+	text-align: center;
+}
+.contact_right{
+	width: 74%;
+}
+.icon_img{
+	width: 100rpx;
+	height: 90rpx;
+}
+.title_name,.content_info{
+	display: block;
+	line-height:40rpx;
+}
+.title_name{
+	font-weight: 800;
+}
+.content_info{
+	font-size: 20rpx;
+}
+.label_weixin{
+	color: #bdaa04;
+}
+.grey{
+	color: #828a88;
+}
+

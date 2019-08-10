@@ -1,0 +1,26 @@
+//scss样式配置文件
+
+//主界面
+@import './pages/index/index.scss';
+//登录
+@import './pages/login/login.scss';
+//手机验证码登录
+@import './pages/login/vcodeLogin.scss';
+//注册
+@import './pages/login/registe.scss';
+//自定义组件弹出框
+@import './popup/popup.scss';
+//我的二维码
+@import './pages/qrcode/qrcode.scss';
+//我的
+@import './pages/about/aboutme.scss';
+//我的投递
+@import './pages/about/delivery.scss';
+//我的意见
+@import './pages/about/idea.scss';
+//我的钱包
+@import './pages/about/walletme.scss';
+//垃圾箱分布
+@import './pages/distribute/distribute.scss';
+//结算界面
+@import './pages/settlement/settlement.scss';

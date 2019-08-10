@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "详情",
+  "usingComponents": {
+    "refresh": "/components/refresh",
+    "glance": "/components/jm-glance",
+    "click-circle": "/components/clickCircle"
+  }
+}

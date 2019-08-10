@@ -1,0 +1,65 @@
+
+.content {
+	background: #f6f6f6;
+	height: 93vh;
+	color: #828a88;
+}
+.header_rz{
+	width: 100%;
+	background: #eaeaea;
+}
+.header_info{
+	width: 94%;
+	margin: 0 auto;
+	font-size: 13px;
+	line-height: 20px;
+	padding: 15px 0;
+}
+.content_body{
+	width: 94%;
+	margin: 0 auto;
+}
+.real_name,.card_name{
+	color: #333333;
+	font-weight: 700;
+	line-height: 20px;
+	padding-top: 30rpx;
+}
+.real_input{
+	margin: 30rpx 0;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.font14{
+	font-size: 14px;
+}
+.btn_rz{
+	border-radius: 30px;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	font-size: 13px;
+	width: 94%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack : center;
+	-webkit-justify-content : center;
+	    -ms-flex-pack : center;
+	        justify-content : center;
+}
+.privacy_name{
+	color: #007aff;
+}
+

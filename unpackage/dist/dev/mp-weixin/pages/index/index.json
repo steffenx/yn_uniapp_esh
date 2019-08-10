@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "成都市易农科技",
+  "usingComponents": {
+    "refresh": "/components/refresh",
+    "glance": "/components/jm-glance",
+    "click-circle": "/components/clickCircle",
+    "uni-icon": "/components/uni-icon"
+  }
+}

@@ -1,0 +1,107 @@
+<!-- 导航切换，内容随之改变 -->
+<template>
+	<view class="keyWordBox ov">
+
+		<view class="fl keyBoxBo">
+			<view class="fl ov keyBoxB" :style="'width:'+data.length*180+'rpx'">
+				<!-- <view class="fl keyBox" @tap="clickKeyword(item.id,item.title)" v-for="(item,index) in data" :key='index'>
+					<view class="key" :class="{check:item.id==key}">
+						{{item.title}}
+					</view>
+				</view> -->
+				<view class="fl keyBox" @tap="clickKeyword(item.id,item.title,item.list)" v-for="(item,index) in data" :key='index'>
+					<view class="key" :class="{check:item.id==key}">
+					<image class="fl-img" :src="item.Tabimg"></image>
+					<view class="fl-value">
+						{{item.title}}
+					</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				key: '1'
+			};
+		},
+		props: {
+			//载入的标签数据
+			data: Array
+
+		},
+		methods: {
+			clickKeyword(e, title,list) {
+				// console.log(title)
+				this.key = e;
+				var data={
+					key:e,
+					name:title,
+					list:list
+				}
+				this.$emit('clickKeyword', data);
+			}
+		}
+	}
+</script>
+
+<style>
+	.fl {
+		float: left;
+	}
+
+	.fr {
+		float: right;
+	}
+
+	.ov {
+		overflow: hidden;
+	}
+
+	.check {
+		color: #0B877F !important;
+		border-bottom: 3px solid #0B877F;
+	}
+
+	.keyWordBox {
+		background-color: #f5f5f5;
+		height: 180rpx;
+		width: 100%;
+		font-size: 30rpx;
+		z-index: 9999;
+	}
+
+	.keyBox {
+		color: #666;
+		width: 178rpx;
+		height: 160rpx;
+		margin-top: 15rpx;
+		line-height: 50rpx;
+		text-align: center;
+		border-right: 1px solid #ccc;
+
+	}
+
+	.key {
+		width: 178rpx;
+		height: 160rpx;
+	}
+
+	.keyBoxBo {
+		overflow-x: scroll;
+		width: 100%;
+	}
+	.fl-img{
+		width: 70%;
+		height: 60%;
+	}
+	.fl-value{
+		width: 100%;
+		height: 30%;
+		text-align: center;
+	}
+</style>

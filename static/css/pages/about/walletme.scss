@@ -1,0 +1,163 @@
+.wallet-warp{
+	background: #fff;
+	.wallet-container{
+		padding :15rpx;
+		.heading-content{
+			display: flex;
+			flex-direction: row;
+			text-align: center;
+			justify-content: center;
+			position: relative;
+			height: 50px;
+			.head-title{
+				position: absolute;
+				left: 10px;
+				font-size: 25px;
+				font-weight: 600;
+				line-height: 50px;
+			}
+			.detailed{
+				position: absolute;
+				right: 10px;
+				font-size: 16px;
+				line-height: 50px;
+			}
+		}
+		
+		.wallet-card{
+			background: -webkit-linear-gradient(left,rgba(249,164,72,1),rgba(251,202,72,1)); /* Safari 5.1 - 6 */
+			background: -o-linear-gradient(right,rgba(249,164,72,1),rgba(251,202,72,1)); /* Opera 11.1 - 12*/
+			background: -moz-linear-gradient(right,rgba(249,164,72,1),rgba(251,202,72,1)); /* Firefox 3.6 - 15*/
+			background: linear-gradient(to right, rgba(249,164,72,1), rgba(251,202,72,1)); /* 标准的语法 */
+			height: 300rpx;
+			border-radius: 10px;
+			margin: 5px;
+			padding: 10px 15px;
+			box-shadow: 0 5px 10px #fee8c7; 
+			.wallet-title{
+				margin-top: 5px;
+				.title{
+					color: #fff;
+					font-size: 16px;
+				}
+			}
+			.wallet-money{
+				display: flex;
+				flex-direction: row;
+				padding-top: 5rpx;
+				.money-content{
+					display: flex;
+					flex-direction: row;
+					// justify-content: center;
+					// text-align: center;
+					// margin: auto;
+					.money{
+						color: #fff;
+						font-weight: 700;
+						font-size: 40px;
+						padding-right: 10px;
+					}
+					.unit{
+						font-size: 14px;
+						color: #fff;
+						transform: translateY(50%);
+					}
+				}
+				.go-cash-out{
+					margin: 0 auto;
+					.cash{
+						font-size: 18px;
+						color: #fff;
+						line-height: 20px;
+					}
+				}
+			}
+			.wallet-info{
+				display: flex;
+				flex-direction: row;
+				margin-top: 15px;
+				// text-align: center;
+				// justify-content: center;
+				.history-money,
+				.cash-out{
+					display: flex;
+					flex-direction: column;
+					margin: auto;
+					width: 150px;
+					color: #fff;
+					font-size: 17px;
+				}
+				.history-money{
+					.history{
+						margin-bottom: 5px;
+					}
+				}
+				.cash-out{
+					border-left: 1px solid #fff;
+					.month{
+						margin-left: 20px;
+						margin-bottom: 5px;
+					}
+					.money{
+						margin-left: 20px;
+					}
+				}
+			}
+		}
+		
+		.wallet-tips{
+			border-bottom: 1px solid #f8f8fa;
+			margin: 10px;
+			.tip{
+				font-size: 14px;
+				color: #d3d3d3;
+				padding: 5px;
+			}
+		}
+	}
+	
+	.ic-warp{
+		margin: 15px;
+		border: 4px dotted #d3d3d3;
+		height: 80px;
+		border-radius: 20px;
+		position: relative;
+		.add-ic{
+			display: flex;
+			text-align: center;
+			justify-content: center;
+			flex-direction: row;
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			transform: translateY(-50%);
+			.add-text{
+				margin-right: 20px;
+				color: #d1d1d1;
+			}
+			.cross{
+				height: 25px;
+				width: 25px;
+				display: flex;
+				flex-wrap: wrap;
+				position: relative;
+				.transverse-line{
+					height: 100%;
+					width: 40%;
+					position: absolute;
+					border-right: 4px solid #d1d1d1;
+					top: 0;
+					left: 0;
+				}
+				.vertical-line{
+					height: 40%;
+					width: 100%;
+					position: absolute;
+					border-bottom: 4px solid #d1d1d1;
+					top: 0;
+					left: 0;
+				}
+			}
+		}
+	}
+}

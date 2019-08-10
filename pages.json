@@ -1,0 +1,187 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "成都市易农科技"
+			}
+		},
+		{
+			"path": "pages/login/registe",
+			"style": {
+				"navigationBarTitleText": "注册" 
+				
+			}
+		},
+		{
+			"path": "pages/login/login",		
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+                    "bounce": "none",
+                    "titleNView": {
+                        "buttons": [ 
+                            {
+                                "text": "注册", 
+                                "fontSize":"18",
+                                "float": "right",
+                                "color":"#000"
+
+                            }
+                           
+                        ]
+                       
+                    }
+                }
+			}
+			
+		},
+		{
+			"path": "pages/login/vcodeLogin",
+			"style": {
+				"navigationBarTitleText": "手机号登录"
+			}
+		},
+		{
+			"path": "pages/login/forgetpsd",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/index/sort",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/index/map",
+			"style": {
+				"navigationBarTitleText": "地图"
+			}
+		},
+		{
+			"path": "pages/index/category",
+			"style": {
+				"navigationBarTitleText": "回收分类"
+			}
+		},
+		{
+			"path": "pages/about/aboutme",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/qrcode/qrcode",
+			"style": {
+				"navigationBarTitleText": "我的二维码",
+				"app-plus":{
+					// 将回弹属性关掉
+					"bounce":"none",
+					"scrollIndicator":"none"
+
+				}
+			}
+		},
+		{
+			"path": "pages/about/delivery",
+			"style": {
+				"navigationBarTitleText": "我的投递"
+			}
+		},
+		{
+			"path": "pages/distribute/distribute",
+			"style": {
+				"navigationBarTitleText": "垃圾箱分布"
+			}
+
+		},
+		{
+			"path": "pages/settlement/settlement",
+			"style": {
+				"navigationBarTitleText": "结算"
+			}
+		
+		},
+		{
+			"path": "pages/about/updateme",
+			"style": {
+				"navigationBarTitleText": "修改"
+			}
+		
+		},
+		{
+			"path": "pages/distribute/routeplanning",
+			"style": {
+				"navigationBarTitleText": "路綫規劃"
+			}
+		
+		},
+		{
+			"path": "pages/distribute/routeplanning1",
+			"style": {
+				"navigationBarTitleText": "路綫規劃"
+			}
+		
+		},
+		{
+			"path": "pages/about/idea",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}		
+		},
+		{
+			"path": "pages/about/about_us",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}	
+		},
+		{
+			"path": "pages/about/walletme",
+			"style": {
+				"navigationBarTitleText": "我的钱包"
+			}
+		},
+		{
+			"path": "pages/about/certification",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}	
+		},
+		{
+			"path": "pages/about/binding_card",
+			"style": {
+				"navigationBarTitleText": "绑定IC卡"
+			}		
+		}
+		
+	],
+	"tabBar": {
+	    "color": "#7a7e83",
+	    "selectedColor": "#0faeff",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "text": "首页",
+	        "iconPath": "static/images/home.png",
+	        "selectedIconPath": "static/images/homeHL.png"
+	    }, {
+	        "pagePath": "pages/about/aboutme",
+	        "text": "我的",
+	        "iconPath": "static/images/user.png",
+	        "selectedIconPath": "static/images/userHL.png"
+	    }]
+	},
+	"permission": { 
+		"scope.userLocation": {
+		  "desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	 },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	}
+}
